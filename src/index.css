@@ -1039,7 +1039,13 @@ body {
 
   .showcase > p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .text-wrap790 {
+    font-size: 0.9rem !important;
   }
 
   .textContainer > h1 {
@@ -1189,7 +1195,7 @@ body {
   .primaryHeading {
     color: var(--primary-heading);
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
   }
 
@@ -1353,7 +1359,14 @@ body {
     height: 580px;
   }
 
-  .navBar {
+  .primaryHeading {
+    color: var(--primary-heading);
+    font-weight: 400;
+    width: 90%;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  s .navBar {
     height: 80px;
   }
 
