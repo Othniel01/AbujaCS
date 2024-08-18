@@ -21,8 +21,10 @@ export default function AboutSection() {
         </p>
 
         <div className="aboutFlex">
-          <video className="newVideo" controls="true" playsinline>
+          <video className="newVideo" preload="yes" controls playsinline>
             <source src={videoSource} type="video/mp4" />
+            <source src={videoSource} type="video/webm" />
+            <source src={videoSource} type="video/mov" />
             Your browser does not support the video tag.
           </video>
         </div>
