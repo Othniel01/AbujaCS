@@ -21,7 +21,7 @@ export default function AboutSection() {
         </p>
 
         <div className="aboutFlex">
-          <video className="newVideo" controls>
+          <video className="newVideo" controls="true">
             <source src={videoSource} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
