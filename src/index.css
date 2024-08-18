@@ -1195,7 +1195,7 @@ body {
   .primaryHeading {
     color: var(--primary-heading);
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     text-align: center;
   }
 
@@ -1363,7 +1363,7 @@ body {
     color: var(--primary-heading);
     font-weight: 400;
     width: 90%;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     text-align: center;
   }
   s .navBar {
