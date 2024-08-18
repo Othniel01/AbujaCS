@@ -1,5 +1,5 @@
 .emblaSpons {
-  width: 100%;
+  width: 50%;
   position: relative;
   margin: auto;
   --slide-height: 19rem;
@@ -88,4 +88,28 @@
 .embla__button__svgSpons {
   width: 35%;
   height: 35%;
+}
+
+@media (max-width: 1059px) {
+  .emblaSpons {
+    width: 70%;
+    position: relative;
+    margin: auto;
+    --slide-height: 19rem;
+    --slide-spacing: 1rem;
+    --slide-size: 100%;
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 675px) {
+  .emblaSpons {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    --slide-height: 19rem;
+    --slide-spacing: 1rem;
+    --slide-size: 100%;
+    margin-top: 4rem;
+  }
 }
