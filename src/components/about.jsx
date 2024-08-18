@@ -1,6 +1,6 @@
 import transLogo from "../img/transparentLogo.png";
 import arc from "../img/highlightArc.png";
-import videoSource from "../video/acs.mp4";
+import videoSource from "../video/acs.mov";
 
 export default function AboutSection() {
   return (
