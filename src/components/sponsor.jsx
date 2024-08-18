@@ -3,6 +3,15 @@ import nyscLogo from "../img/sponsors/nysc.png";
 import cookLogo from "../img/sponsors/logoACS.png";
 import crnLogo from "../img/sponsors/CRA.png";
 import headerStar from "../img/star.png";
+import SponsorCarousel from "./SponsorCarousel";
+
+const OPTIONS = {
+  dragFree: true,
+  direction: "rtl",
+  loop: true,
+  containScroll: "trimSnaps",
+  slidesToScroll: 1,
+};
 
 export default function SponsorSection() {
   return (
@@ -15,12 +24,27 @@ export default function SponsorSection() {
         This event wouldn't have been possible without the support of our
         esteemed sponsors. We extend our heartfelt gratitude to
       </p>
-      <div className="sponsorRow">
+
+      <SponsorCarousel options={OPTIONS}>
+        <div className="customSlide">
+          <img className="sponsorImage" src={hiltonLogo} alt="#" />
+        </div>
+        <div className="customSlide">
+          <img className="sponsorImage" src={nyscLogo} alt="#" />
+        </div>
+        <div className="customSlide">
+          <img className="sponsorImage" src={cookLogo} alt="#" />
+        </div>
+        <div className="customSlide">
+          <img className="sponsorImage" src={crnLogo} alt="#" />
+        </div>
+      </SponsorCarousel>
+      {/* <div className="sponsorRow">
         <img className="sponsorImage" src={hiltonLogo} alt="#" />
         <img className="sponsorImage" src={nyscLogo} alt="#" />
         <img className="sponsorImage" src={cookLogo} alt="#" />
         <img className="sponsorImage" src={crnLogo} alt="#" />
-      </div>
+      </div> */}
     </div>
   );
 }
