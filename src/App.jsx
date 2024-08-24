@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react";
 import guinness from "./img/guinness.png";
 import acsLogo from "./img/logoACS.png";
-import backDrop from "./img/seats.jpg";
+import backDrop from "./img/showcaseTwo.jpg";
 import headerStar from "./img/star.png";
 import EmblaCarousel from "./components/EmblaCarousel.jsx";
 import Timercountdown from "./components/timer.jsx";
-import tiltSliderOne from "./img/breakingRecordsThree.jpg";
-import tiltSliderTwo from "./img/breakingRecordsOne.png";
-import tiltSliderFour from "./img/breakingRecordsFour.jpg";
-import tiltSliderThree from "./img/breakingRecordsFive.png";
+import tiltSliderOne from "./img/slideOne.png";
+import tiltSliderTwo from "./img/sildeTwo.jpg";
+import tiltSliderFour from "./img/slideFour.jpg";
+import tiltSliderThree from "./img/slideThree.png";
 import SponsorSection from "./components/sponsor.jsx";
+
 import videoIpad from "./img/ipad.png";
 import AboutSection from "./components/about.jsx";
 
@@ -18,7 +19,7 @@ const OPTIONS = {
   direction: "rtl",
   loop: true,
   containScroll: "trimSnaps",
-  slidesToScroll: 2,
+  slidesToScroll: 1,
 };
 
 function App() {

@@ -3,7 +3,8 @@ import nyscLogo from "../img/sponsors/nysc.png";
 import cookLogo from "../img/sponsors/logoACS.png";
 import crnLogo from "../img/sponsors/CRA.png";
 import headerStar from "../img/star.png";
-import SponsorCarousel from "./SponsorCarousel";
+import Marquee from "react-fast-marquee";
+// import SponsorCarousel from "./SponsorCarousel";
 
 const OPTIONS = {
   dragFree: true,
@@ -24,21 +25,35 @@ export default function SponsorSection() {
         This event wouldn't have been possible without the support of our
         esteemed sponsors. We extend our heartfelt gratitude to
       </p>
+      <div className="marqueeContainer">
+        <Marquee pauseOnHover="true">
+          <div className="marqueeSlide">
+            <img className="sponsorImage" src={hiltonLogo} alt="#" />
+          </div>
+          <div className="marqueeSlide">
+            <img className="sponsorImage" src={nyscLogo} alt="#" />
+          </div>
+          <div className="marqueeSlide">
+            <img className="sponsorImage" src={cookLogo} alt="#" />
+          </div>
+          <div className="marqueeSlide">
+            <img className="sponsorImage" src={crnLogo} alt="#" />
+          </div>
+          <div className="marqueeSlide">
+            <img className="sponsorImage" src={hiltonLogo} alt="#" />
+          </div>
+          <div className="marqueeSlide">
+            <img className="sponsorImage" src={nyscLogo} alt="#" />
+          </div>
+          <div className="marqueeSlide">
+            <img className="sponsorImage" src={cookLogo} alt="#" />
+          </div>
+          <div className="marqueeSlide">
+            <img className="sponsorImage" src={crnLogo} alt="#" />
+          </div>
+        </Marquee>
+      </div>
 
-      <SponsorCarousel options={OPTIONS}>
-        <div className="customSlide">
-          <img className="sponsorImage" src={hiltonLogo} alt="#" />
-        </div>
-        <div className="customSlide">
-          <img className="sponsorImage" src={nyscLogo} alt="#" />
-        </div>
-        <div className="customSlide">
-          <img className="sponsorImage" src={cookLogo} alt="#" />
-        </div>
-        <div className="customSlide">
-          <img className="sponsorImage" src={crnLogo} alt="#" />
-        </div>
-      </SponsorCarousel>
       {/* <div className="sponsorRow">
         <img className="sponsorImage" src={hiltonLogo} alt="#" />
         <img className="sponsorImage" src={nyscLogo} alt="#" />
