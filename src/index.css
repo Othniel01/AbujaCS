@@ -453,8 +453,9 @@ body {
 }
 
 .newVideo {
-  width: 910px;
+  width: fit-content;
   height: 640px;
+  margin-top: 2rem;
 }
 
 .aboutFlexTextContainer {
@@ -519,9 +520,10 @@ body {
   position: relative;
 }
 
-.contactSectionText > h1 {
+.contactSectionText > a {
   font-weight: 500;
   font-size: 5rem;
+  line-height: 1.1;
   color: var(--primary-textColor);
 }
 
@@ -869,7 +871,8 @@ body {
   }
 
   .newVideo {
-    width: 710px;
+    width: fit-content;
+    margin-top: 2rem;
     height: 520px;
   }
 
@@ -1074,14 +1077,14 @@ body {
     width: 580px !important;
   }
 
-  .contactSectionText > h1 {
+  .contactSectionText > a {
     font-weight: 500;
     font-size: 2.5rem;
     color: var(--primary-textColor);
   }
 
   .newVideo {
-    width: 100%;
+    width: fit-content;
     height: 420px;
     margin-top: 4rem;
   }
@@ -1121,7 +1124,7 @@ body {
   }
 
   .newVideo {
-    width: 100%;
+    width: fit-content;
     height: 420px;
     margin-top: 2rem;
   }
@@ -1304,13 +1307,13 @@ body {
     font-size: 2rem;
   }
 
-  .contactSectionText > h1 {
+  .contactSectionText > a {
     font-size: 2rem;
   }
 
   .newVideo {
     width: 100%;
-    height: 310px;
+    height: 410px;
     margin-top: 2rem;
   }
 
@@ -1401,8 +1404,8 @@ body {
 @media (max-width: 418px) {
   .newVideo {
     width: 100%;
-    height: 210px;
-    margin-top: 2rem;
+    height: 410px;
+    margin-top: 1rem;
   }
 }
 

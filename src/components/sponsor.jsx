@@ -6,13 +6,13 @@ import headerStar from "../img/star.png";
 import Marquee from "react-fast-marquee";
 // import SponsorCarousel from "./SponsorCarousel";
 
-const OPTIONS = {
-  dragFree: true,
-  direction: "rtl",
-  loop: true,
-  containScroll: "trimSnaps",
-  slidesToScroll: 1,
-};
+// const OPTIONS = {
+//   dragFree: true,
+//   direction: "rtl",
+//   loop: true,
+//   containScroll: "trimSnaps",
+//   slidesToScroll: 1,
+// };
 
 export default function SponsorSection() {
   return (

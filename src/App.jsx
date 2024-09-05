@@ -11,7 +11,7 @@ import tiltSliderFour from "./img/slideFour.jpg";
 import tiltSliderThree from "./img/slideThree.png";
 import SponsorSection from "./components/sponsor.jsx";
 
-import videoIpad from "./img/ipad.png";
+// import videoIpad from "./img/ipad.png";
 import AboutSection from "./components/about.jsx";
 
 const OPTIONS = {
@@ -52,8 +52,13 @@ function App() {
           <div className={isNavBarDark ? "navBarDark" : "navBar"}>
             <img src={acsLogo} alt="" />
             <div className="navLinks">
-              <a href="#">+234-811-988-0434</a>
-              <a className="participateBtn" href="#">
+              <p>+234-811-988-0434</p>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                className="participateBtn"
+                href="https://forms.gle/aNDjHe9mrN3nvxnVA"
+              >
                 Participate
               </a>
             </div>
@@ -78,7 +83,12 @@ function App() {
 
             <Timercountdown />
 
-            <a className="participateBtn headBtn mt-4" href="#">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              className="participateBtn headBtn mt-4"
+              href="https://forms.gle/aNDjHe9mrN3nvxnVA"
+            >
               Participate
             </a>
           </div>

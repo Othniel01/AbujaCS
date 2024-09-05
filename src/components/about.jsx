@@ -1,6 +1,6 @@
 import transLogo from "../img/transparentLogo.png";
 import arc from "../img/highlightArc.png";
-import videoSource from "../video/acs.mov";
+import videoSource from "../video/acstwo.mp4";
 
 export default function AboutSection() {
   return (
@@ -75,13 +75,18 @@ export default function AboutSection() {
 
         <div className="contactSection">
           <div className="contactSectionText">
-            <h1>
-              Book<span className="outlineText"> A Seat</span>
-            </h1>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://forms.gle/aNDjHe9mrN3nvxnVA"
+            >
+              Click To Book<span className="outlineText"> A Seat</span>
+            </a>
             <div className="map">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.73192342006!2d7.408440799903628!3d9.088167926075108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e75b2d149b85d%3A0xbc47e66771eff717!2sAbuja%20Culinary%20School...best%20culinary%20school%20in%20Nigeria!5e0!3m2!1sen!2sng!4v1723811549567!5m2!1sen!2sng"
                 allowFullScreen=""
+                title="map"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
