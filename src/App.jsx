@@ -4,7 +4,7 @@ import acsLogo from "./img/logoACS.png";
 import backDrop from "./img/showcaseTwo.jpg";
 import headerStar from "./img/star.png";
 import EmblaCarousel from "./components/EmblaCarousel.jsx";
-import Timercountdown from "./components/timer.jsx";
+// import Timercountdown from "./components/timer.jsx";
 import tiltSliderOne from "./img/slideOne.png";
 import tiltSliderTwo from "./img/sildeTwo.jpg";
 import tiltSliderFour from "./img/slideFour.jpg";
@@ -81,7 +81,7 @@ function App() {
               excellence.
             </p>
 
-            <Timercountdown />
+            {/* <Timercountdown /> */}
 
             <a
               rel="noreferrer"
